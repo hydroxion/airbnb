@@ -28,6 +28,12 @@ Use the package manager Pip to install the dependencies.
 pip3 install -r requirements.txt
 ```
 
+Use the Jupyter package to enable the extensions.
+
+```sh
+jupyter nbextension enable --py widgetsnbextension
+```
+
 ## Usage
 
 Start a Jupyter Lab server.
@@ -37,6 +43,10 @@ jupyter lab --log-level=critical
 ```
 
 Open the _main.ipynb_ notebook and execute all cells.
+
+## Documentation
+
+The dataset [source](http://insideairbnb.com/get-the-data.html).
 
 ## Contributing
 

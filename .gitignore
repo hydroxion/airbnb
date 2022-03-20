@@ -4,5 +4,8 @@
 # Environment
 venv
 
+# Model
+catboost_info
+
 # Cache
 .ipynb_checkpoints
