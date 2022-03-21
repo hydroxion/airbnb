@@ -46,7 +46,7 @@ Open the _main.ipynb_ notebook and execute all cells.
 
 ## Documentation
 
-The dataset [source](http://insideairbnb.com/get-the-data.html).
+The dataset [source](http://insideairbnb.com/get-the-data.html) (Rio de Janeiro).
 
 ## Q&A
 
@@ -60,11 +60,11 @@ Regression models are normally evaluated by the mean squared error (MSE), a.k.a 
 
 - What was the criterion used to validate the model?
 
-Bootstrap and boosting tree models improve stability and accuracy, making root mean squared error (RMSE) a better and balanced fit to evaluate the model performance in the context of large errors, i.g in the context of features like price that by nature has a high deviation that can lead to high error.
+Bootstrap and boosting tree models improve stability and accuracy, making root mean squared error (RMSE) a better and balanced fit to evaluate the model performance in the context of large errors, i.e in the context of features like price that by nature has a high deviation that can lead to high error.
 
 - What evidence is there to define the model as good?
 
-Both the tree bias and the RMSE are in a low scale of 0.00\* and the feature importance visualization doesn't indicate overfiting or underfiting, besides the fact that random search optimization is used to define the hyperparameter.
+Both the tree bias and the RMSE are in a low scale of 0.00\* and the feature importance visualization doesn't indicate overfiting or underfiting, besides the fact that random search optimization is used to define the hyperparameters.
 
 ## Contributing
 
