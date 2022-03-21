@@ -48,6 +48,24 @@ Open the _main.ipynb_ notebook and execute all cells.
 
 The dataset [source](http://insideairbnb.com/get-the-data.html).
 
+## Q&A
+
+- How was the modeling strategy defined?
+
+Bootstrap and boosting tree models are fit to the task in terms of feature coverage, optimization and explainability.
+
+- How was the cost function used defined?
+
+Regression models are normally evaluated by the mean squared error (MSE), a.k.a the distance between truthy and predicted values.
+
+- What was the criterion used to validate the model?
+
+Bootstrap and boosting tree models improve stability and accuracy, making root mean squared error (RMSE) a better and balanced fit to evaluate the model performance in the context of large errors, i.g in the context of features like price that by nature has a high deviation that can lead to high error.
+
+- What evidence is there to define the model as good?
+
+Both the tree bias and the RMSE are in a low scale of 0.00\* and the feature importance visualization doesn't indicate overfiting or underfiting, besides the fact that random search optimization is used to define the hyperparameter.
+
 ## Contributing
 
 Pull requests are welcome. Please, consider the following.
