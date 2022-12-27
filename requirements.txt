@@ -1,5 +1,5 @@
 wheel==0.38.1
-setuptools==44.0.0
+setuptools==65.5.1
 jupyterlab==3.3.2
 pandas==1.4.1
 matplotlib==3.5.1
